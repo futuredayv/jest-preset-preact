@@ -9,7 +9,14 @@ module.exports = babelJest.createTransformer({
 				jsxPragmaFrag: 'Fragment',
 			},
 		],
-		'@babel/preset-env',
+		[
+			'@babel/preset-env',
+			{
+        targets: {
+          esmodules: true,
+        },
+      },
+		],
 	],
 	plugins: [
 		[
