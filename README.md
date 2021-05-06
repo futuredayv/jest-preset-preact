@@ -1,5 +1,8 @@
 # jest-preset-preact
 
+## Customized for Vite
+Supports esmodules for **Vite**. [See this issue](https://github.com/babel/babel/issues/9849#issuecomment-592668815)
+
 Jest preset containing all required configuration for writing tests for [preact](https://github.com/preactjs/preact).
 
 Features:
